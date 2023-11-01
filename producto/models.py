@@ -6,4 +6,4 @@ class Producto(models.Model):
     nombre = models.TextField(null = False, max_length = 50)
     descripcion = models.TextField(null = False, max_length = 200)
     existencias = models.IntegerField(null = False)   
-    precio = models.DecimalField(null = False, decimal_places = 2, max_digits = 9)
+    precio = models.DecimalField(null = False, decimal_places = 2, max_digits = 9) 
